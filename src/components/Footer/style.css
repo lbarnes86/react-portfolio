@@ -1,0 +1,64 @@
+footer {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    /* color: rgb(14, 84, 177); */
+    box-shadow: -30px 30px 20px;
+    text-align: center;
+    background-color: rgb(56, 55, 55);
+    margin-bottom: -20px;
+    top: 100px;
+    padding-top: -10px;
+    margin-right: 90px;
+    margin-left: 90px;
+    
+  }
+  .contact-me-subtitle {
+    color: rgb(251, 253, 255);
+    align-items: center;
+    text-align: center;
+  }
+
+ .social-icon {
+    color:rgb(14, 84, 177);
+    font-size: 40px;
+    margin-right: 40px;
+    align-items: center;
+    text-align: center;
+  }
+  a {
+    color:rgb(14, 84, 177);
+  }
+  h3 {
+      
+    color: rgb(63, 62, 62);
+    font-weight: bolder;
+}
+
+  .card-contact {
+    position: center;
+    right: 38px;
+    top: 35px;
+    margin-bottom: 60px;
+  
+  }
+ 
+
+.container {
+    width: 95%;
+    text-align: center;
+  }
+
+  
+ .footer-btm{
+     color: white;
+     
+ }
+  
+  /* .footnote {
+    color: #999;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 10px;
+  
+  } */

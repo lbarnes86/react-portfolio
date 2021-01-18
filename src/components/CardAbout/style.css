@@ -1,0 +1,57 @@
+body {
+  
+    /* font-size: 16px; */
+    font-weight: bolder;
+    /* font-family: "Lato", sans-serif; */
+    background-color: aliceblue;
+    /* color: darkgrey; */
+    /* align-items: center;
+    justify-content: center; */
+    position: relative;
+  }
+section {
+    margin-right: 90px;
+    margin-left: 90px;
+}
+
+  p {
+    color: black; 
+    text-align: left;
+  }
+  h3 {
+      
+    color: rgb(63, 62, 62);
+    font-weight: bolder;
+}
+
+#resume {
+    color: rgb(59, 57, 57);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+
+  /* img {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+   
+    
+    text-align: center;
+
+} */
+
+.photo {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.far .fa-file{
+    color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
