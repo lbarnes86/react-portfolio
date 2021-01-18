@@ -31,10 +31,7 @@ You can run "npm i" to install package dependencies.
 
 ## Usage
 
-```
-Feel free to use this as a template for your own portfolio using React. You can run "yarn start" or "npm start". This runs the app in the development mode. Open http://localhost:3000 to view it in the browser. The page will reload if edits are made.
-
-```
+>Feel free to use this as a template for your own portfolio using React. You can run "yarn start" or "npm start". This runs the app in the development mode. Open http://localhost:3000 to view it in the browser. The page will reload if edits are made.
 
 ## Dependencies
 
@@ -61,4 +58,4 @@ Feel free to use this as a template for your own portfolio using React. You can 
 ![License](https://img.shields.io/badge/license-MIT-green")
 
 
-Copyright© 2021 [Lloyd Barnes](https://lbarnes86.github.io/updated_Portfolio/)
+Copyright© 2021 [Lloyd Barnes](https://lbarnes86.github.io/react-portfolio/)
