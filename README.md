@@ -4,9 +4,9 @@
 
 </div>
 
-- Live Demo: [Live Demo]()
+- Live Demo: [Live Demo](https://lbarnes86.github.io/react-portfolio/)
 
-- Repository: [Repository]()
+- Repository: [Repository](https://github.com/lbarnes86/react-portfolio)
 
 ## Table of Contents
 
