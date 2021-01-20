@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import "./App.css";
 
 import LandingPage from "./pages/LandingPage";
-import Navbar from "./components/Navbar";
+import Nav from "./components/Navbar";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
@@ -22,7 +22,7 @@ function App() {
 			<div className="App">
         <div className="card-image ">
       <Header />
-        <Navbar />
+        <Nav />
 				<Switch>
 					<Route exact path="/" className="App-link" component={App}>
 						<LandingPage />

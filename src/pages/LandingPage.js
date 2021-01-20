@@ -17,8 +17,8 @@ export default class LandingPage extends Component {
         <h1>Welcome, I'm Lloyd!</h1>
         </div>
         <h3 className="h3">Software Engineer, Web Developer and Gamer</h3>
-        <div className="container">
-      <img className="photo" id="photo" src={mainImage} alt="homepage" />
+        <div className="container ">
+      <img className="photo " id="photo" src={mainImage} alt="homepage" />
       </div>
       
       </section>

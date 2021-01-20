@@ -1,16 +1,17 @@
 footer {
     position: relative;
-    align-items: center;
-    justify-content: center;
-    /* color: rgb(14, 84, 177); */
+    /* align-items: center; */
+    /* justify-content: center; */
+    
     box-shadow: -30px 30px 20px;
-    text-align: center;
+    /* text-align: center; */
     background-color: rgb(56, 55, 55);
     margin-bottom: -20px;
     top: 100px;
     padding-top: -10px;
-    margin-right: 90px;
-    margin-left: 90px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: large;
     
   }
   .contact-me-subtitle {
@@ -22,9 +23,11 @@ footer {
  .social-icon {
     color:rgb(14, 84, 177);
     font-size: 40px;
-    margin-right: 40px;
+    margin-right: 20px;
     align-items: center;
     text-align: center;
+    justify-content: space-around;
+  
   }
   a {
     color:rgb(14, 84, 177);
@@ -54,11 +57,15 @@ footer {
      color: white;
      
  }
+
+ @media screen and (min-width: 470px) {
+  .social-icon {
+   
+    margin-right: 40px;
+    
   
-  /* .footnote {
-    color: #999;
-    font-size: 0.8rem;
-    text-align: center;
-    margin-top: 10px;
+  }
+}
+
+
   
-  } */

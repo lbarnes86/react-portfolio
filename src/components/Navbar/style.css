@@ -1,6 +1,6 @@
 
 nav {
-    position: relative;
+    /* position: relative; */
     background-color: rgb(194, 196, 199);
     text-align: center;
     /* justify-content: space-between; */
@@ -8,19 +8,29 @@ nav {
 }
 
 .nav-bar {
-    position: relative;
+    /* position: relative;
     right: 20px;
-    margin-left: 20px;
-    font-size: 17px;
+    margin-left: 10px;
+    font-size: 17px; */
     color: rgb(18, 127, 199);
-    font-weight: bolder;
     
-    justify-content: space-between;
+    font-weight: bolder;
+    margin-right: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+
+  
+/*     
+    justify-content: space-between; */
 }
 
 .container {
     width: 95%;
     text-align: center;
+    position: center;
+    
+    
   }
   img {
     text-align: center;
@@ -30,8 +40,7 @@ nav {
  max-height: 400px;
  margin-top: 60px;
  margin-bottom: 40px;
- position: relative;
- justify-content: center;
+ 
 }
 #intro {
     background-color: rgb(18, 127, 199);
@@ -58,4 +67,22 @@ nav {
 } */
 .photo {
   box-shadow: -30px 30px 20px;
+
+  position: center;
+  display: center;
+
 }
+
+@media screen and (min-width: 470px) {
+  .nav-bar {
+    font-size: larger;
+    margin-right: 30px;
+    
+  }
+}
+@media screen and (min-width: 640px) {
+  .nav-bar {
+    margin-right: 80px;
+  }
+}
+

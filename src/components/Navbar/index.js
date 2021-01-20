@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+
 import "./style.css";
 import Resume from "../../content/AboutData/cv.pdf";
 import Project from "../../pages/Projects";
@@ -8,29 +9,37 @@ import Contact from "../../pages/Contact";
 
 function Navbar() {
 	return (
-		<nav className="nav">
+        <>
+		<nav className="topnav" id="myTopnav">
 
-		<Link className="nav-bar mdi-action-account-box small" to="/about" href={About}>
+		<NavLink className="nav-bar mdi-action-account-box small" to="/about" href={About}>
 				About
-			</Link>
+			</NavLink>
 			
 			
-			<Link className="nav-bar mdi-av-web" to="/project" href={Project}>
+			<NavLink className="nav-bar mdi-av-web" to="/project" href={Project}>
 				Projects
-			</Link>
+			</NavLink>
 
-			<Link className="nav-bar mdi-content-mail" to="/contact" href={Contact}>
+			<NavLink className="nav-bar mdi-content-mail" to="/contact" href={Contact}>
 				Contact
-			</Link>
+			</NavLink>
 
 			<a className=" nav-bar mdi-action-description" href={Resume} target="_blank" rel="noreferrer">
 				Resumé
 			</a>
+
+        
 			
 		</nav>
+</>
+);
+}
+
+export default Navbar;
 		// <div>
        
-        //   <ul className="nav">
+     //   <ul className="nav">
             
          
             
@@ -81,7 +90,3 @@ function Navbar() {
         //   </ul>
         
         // </div>
-	);
-}
-
-export default Navbar;
