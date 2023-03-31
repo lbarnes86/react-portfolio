@@ -1,0 +1,90 @@
+{
+    "header": {
+      "firstName": "Lloyd",
+      "lastName": "Barnes",
+      "phoneNumber": "601 622-6225",
+      "bio": "My name is Lloyd Barnes and I am a fullstack Java developer. I am an Agile collaborator that is motivated to produce results.",
+      "email": "barnes.lloyd86@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/lloyd-barnes-ii/",
+      "github": "https://github.com/lbarnes86",
+      "resume": "./files/LBarnes_Resume.pdf"
+    },
+    "skills": [
+        {
+          "name": "Java"
+        },
+        {
+          "name": "Spring Boot"
+        },
+        {
+          "name": "React"
+        },
+        {
+          "name": "MySQL"
+        },
+        {
+          "name": "Heroku"
+        },
+        {
+          "name": "Postman"
+        }
+      ],
+    "experience": [
+      {
+        "position": "Associate Developer",
+        "organization": "Cognizant",
+        "aboutWork": "SAP / Java Developer. Business Analyst experience"
+      },
+      {
+        "position": "Freelance Developer",
+        "organization": "L2, LLC",
+        "aboutWork": "Create and design websites for clients"
+      },
+      {
+        "position": "Technical Support Advisor",
+        "organization": "Apple",
+        "aboutWork": "Chat support advisor/tech support"
+      }
+    ],
+    "education": [
+      {
+        "university": "Jackson State University",
+        "degree": "Master of Science",
+        "major": "Technology Education",
+        "fromDate": "2014",
+        "toDate": "2016"
+      },
+      {
+        "university": "Southern Methodist University",
+        "degree": "Coding BootCamp",
+        "major": "FullStack Java Development",
+        "fromDate": "2022",
+        "toDate": "2022"
+      }
+    ],
+   
+    
+    "projects": [
+      {
+        "projectName": "Game Store App",
+        "projectRepo": "https://github.com/lbarnes86/Project-1-Group-4-GameStore",
+        "projectLive": "https://preeminent-cascaron-44e83a.netlify.app/",
+        "projectImage": "./images/gamestore.png",
+        "projectDescription": "Group Project. Java backend/ React fronent"
+      },
+      {
+        "projectName": "Customer Data Service API",
+        "projectRepo": "https://github.com/lbarnes86/customer-data-service-backend",
+        "projectLive": "https://velvety-douhua-ea0068.netlify.app/",
+        "projectImage": "./images/customerapi.png",
+        "projectDescription": "Add, Edit and Delete a customer. Filter by state or level"
+      },
+      {
+        "projectName": "Recipe Service App",
+        "projectRepo": "https://github.com/lbarnes86/recipe-service-backend",
+        "projectLive": "https://unrivaled-caramel-c19cec.netlify.app/",
+        "projectImage": "./images/recipeapp.png",
+        "projectDescription": "Recipe Service API. Java backend, React front end"
+      }
+    ]
+  }
