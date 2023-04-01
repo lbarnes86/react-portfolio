@@ -23,7 +23,7 @@ class Header extends Component {
           </h1>
           <div className="subheading mb-5">
             {/* {this.headerData.phoneNumber} · */}
-            <a href="mailto:name@email.com">{this.headerData.email}</a>
+            <a href="mailto:barnes.lloyd86@gmail.com">{this.headerData.email}</a>
           </div>
           <p className="lead mb-5">{this.headerData.bio}</p>
           <li>
