@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import './resume.min.css';
+import '../css/resume.min.css';
 
 class Experience extends Component {
   constructor(props) {

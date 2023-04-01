@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
-import './resume.min.css';
+import '../css/resume.min.css';
 
 class Skills extends Component {
   constructor(props) {

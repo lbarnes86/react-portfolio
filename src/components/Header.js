@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import Resume from '../files/LBarnes_Resume.pdf';
-import './resume.min.css';
+import '../css/resume.min.css';
 
 class Header extends Component {
   constructor(props) {

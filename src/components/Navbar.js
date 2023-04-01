@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import './resume.min.css';
+import '../css/resume.min.css';
 import Resume from '../files/LBarnes_Resume.pdf'
 import Image from '../images/headshot.jpeg'
 
